@@ -1,22 +1,67 @@
-.bg {
-	
-	margin-top: 50px;
+body {
+	position: relative;
 }
+
+html {
+}
+
+.bg {
+	height: 100%;
+	padding-top: 70px;
+}
+
+.sushibase {
+	height: 100%;
+	width: 100%;
+	background-color: #d22f27;
+	position: absolute;
+}
+
+.sushibg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.sushi1 {
+	background-image: url("sushibgsmall.png");
+}
+
+.sushi2 {
+	background-image: url("sushibglarge.png");
+}
+
+
+section {
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+section#one {
+	background-color: rgba(255,255,255,.9);
+}
+
+section#two {
+	background-color: rgba(255,255,255,.7);
+}
+
+section#three {
+	background-color: rgba(255,255,255,.9);
+}
+
 
 .header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
 	background-color: white;
-}
-
-body {
-	background-color: lightgray;	
+	z-index: 1;
 }
 
 .navmenu {
-	background-color: pink;
-}
-
-.content {
-	background-color: lightblue;
+	background-color: rgba(255,255,255,.7);
+	width: 20%;
 }
 
 .profilepic {

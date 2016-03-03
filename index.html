@@ -2,41 +2,55 @@
 <html>
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
   	<div class="header container-fluid">
       <div class="row">
-        <h4 class="col-xs-11">Si Fi Faye Li</h3>
-        <h4 class="hamburger pull-left visible-xs">
+        <h4 class="col-xs-11">Si Fi Faye Li</h4>
+        <h5 class="hamburger pull-left visible-xs">
           <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-        </h4>
-
+        </h5>
       </div>
   	</div>
-  	<div class="bg container">
-      <div class="row">
-    		<div class="navmenu col-md-3 hidden-xs">
-          <ul>
-            <li>About</li>
-            <li>Web Dev</li>
-            <li>VR/AR</li>
-            <li>Game Dev</li>
-            <li>Artwork</li>
-            <li>Contact</li>
-          </ul>
-    		</div>
-    		<div class="content col-md-9">
-            <img src="profilepic.jpg" class="profilepic">
-            <h4>Hi, I'm Si Fi Faye Li (or just Faye for short). I am a creative & ideas-driven software engineer. I design, prototype & develop cool applications. My current obessions are VR/AR technology, drawing & sushi. </h4>
-    		</div>
+    <div class="sushibase">
+      <div class="sushibg sushi1"></div>
+      <div class="sushibg sushi2"></div>
+    </div>
+  	<div class="bg">
+      <div id="sidepin" class="navmenu hidden-xs">
+        <ul>
+          <li>About</li>
+          <li>Web Dev</li>
+          <li>VR/AR</li>
+          <li>Game Dev</li>
+          <li>Artwork</li>
+          <li>Contact</li>
+        </ul>
       </div>
-  	</div>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 pull-right">
+        		<section id="one">
+                <img src="profilepic.jpg" class="profilepic">
+                <h4>Hi, I'm Si Fi Faye Li (or just Faye for short). I am a creative & ideas-driven Computer Science student at Rose-Hulman Institute of Technology. I like to design, prototype & develop cool software applications. My current obessions are VR/AR technology, drawing & sushi. </h4>
+                <h4>Scroll down to learn more</h4>
+        		</section>
+            <section id="two">
+                <img src="profilepic.jpg" class="profilepic">
+                <h4>Hi, I'm Si Fi Faye Li (or just Faye for short). I am a creative & ideas-driven Computer Science student at Rose-Hulman Institute of Technology. I like to design, prototype & develop cool software applications. My current obessions are VR/AR technology, drawing & sushi. </h4>
+                <h4>Scroll down to learn more</h4>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/gsap/src/minified/TweenMax.min.js"></script>
+  	<script src="node_modules/jquery/dist/jquery.min.js"></script>
   	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

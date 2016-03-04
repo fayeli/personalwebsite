@@ -3,6 +3,14 @@ var main = function() {
 		$('.navmenu').toggleClass('hidden-xs');
 	});
 
+	$('.profilepic').hover(
+		function(){
+			$(this).attr("src", "profilepic.gif");
+		}, 
+		function(){
+			$(this).attr("src", "profilepic.jpg");
+	});
+
 	var controller = new ScrollMagic.Controller();
 	var tween = new TimelineMax()
 		.add([

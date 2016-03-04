@@ -11,7 +11,7 @@ html {
 }
 
 .sushibase {
-	height: 2000px;
+	height: 2100px;
 	width: 100%;
 	background-color: #d22f27;
 	position: absolute;
@@ -67,5 +67,9 @@ section#three {
 }
 
 .profilepic {
-	width: 140px;
+	width: 150px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
